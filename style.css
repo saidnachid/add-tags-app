@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rethink Sans", serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebedf3;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 450px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.header h2 {
+  font-size: 17px;
+}
+
+.container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid lightgray;
+  padding: 8px;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background-color: #eeeeee;
+}
+
+.container ul li i {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  cursor: pointer;
+  margin-left: 8px;
+  align-items: center;
+  justify-content: center;
+  background-color: #cbcccf;
+}
+
+.container ul input {
+  width: fit-content;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details span {
+  font-size: 15px;
+}
+
+.details button {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}
